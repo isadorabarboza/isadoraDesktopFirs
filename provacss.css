@@ -89,6 +89,11 @@ html {
     align-items: center;
     margin-top: -40px;
     display: flex;
+    background-color: green;
+    color: azure;
+    padding: 6%;
+    text-align: center;
+    border-radius: 2%;
 }
 
 .texto2 {
@@ -96,6 +101,11 @@ html {
     justify-content: center;
     align-items: center;
     margin-top: -40px;
+    background-color: green;
+    color: azure;
+    padding: 6%;
+    text-align: center;
+    border-radius: 2%;
 }
 
 .texto3 {
@@ -103,6 +113,11 @@ html {
     justify-content: center;
     align-items: center;
     margin-top: -40px;
+    background-color: green;
+    color: azure;
+    padding: 6%;
+    text-align: center;
+    border-radius: 2%;
 }
 
 @media (max-width: 375px) {
