@@ -44,4 +44,4 @@ Como eu ja havia feitos trabalhos assim, só copiei, mudei e adicionei as inform
 - **Funcionalidade 3:** No desenvolvimento da página, eu demorei bastante pra conseguir terminar, tava me perdendo muito em alguns erros até fáceis de arrumar,  
  O CSS foi o mais trabalhoso e complicado para terminar, eu demorei muito pra conseguir colocar o "nome e a profissão" em coluna.
 No html, demorei para conseguir colocar a iamgem menor dentro da maior. 
-Não consegui fazer a separação de cores na imagem maior, 
+Não consegui fazer a separação de cores na imagem maior.
