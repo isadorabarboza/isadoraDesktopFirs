@@ -1,0 +1,141 @@
+html {
+    background-color: rgb(163, 231, 168);
+    margin: 0;
+    padding: 0;
+}
+
+#topBox {
+    border: 9px hsl(96, 42%, 95%);
+   display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#BottomBox {
+    
+    width: 1300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(163, 231, 168);
+}
+
+.Circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    background: url(https://i.pinimg.com/736x/e6/5b/07/e65b078fd37ae9e367c2f524d131c12b.jpg);
+    background-size: cover;
+    background-position: 47% 20%;
+}
+
+.bnt-style {
+    width: 100px;
+    height: 25px;
+    background-color: rgb(122, 218, 130);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: rgb(14, 13, 14);
+    margin-right: 15px;
+}
+.caixas {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.caixa1 {
+    width: 252px;
+    height: 271px;
+    margin: 15px;
+    border-radius: 10px;
+    background: url(https://i.pinimg.com/564x/54/62/35/546235e237810ca70bd355891e56121a.jpg);
+}
+.caixa2 {
+    width: 252px;
+    height: 271px;
+    border-radius: 10px;
+    margin: 15px;
+    background: url(https://i.pinimg.com/564x/da/8e/f2/da8ef2c8031a91f98110f05a34cd9fe1.jpg);
+}
+.caixa3 {
+    width: 252px;
+    height: 271px;
+    margin: 15px;
+    border-radius: 10px;
+    background: url(https://i.pinimg.com/564x/d9/12/5d/d9125df51a2e35340d63f9dba08d956d.jpg);
+}
+.irformac {
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menor {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin: 75px;
+}
+
+.texto {
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    display: flex;
+}
+
+.texto2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+}
+
+.texto3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+}
+
+@media (max-width: 375px) {
+
+    #topBox{
+        flex-direction: column;
+        width: 375px;
+    }
+   
+    .Circle {
+        width: 150px;
+        height: 150px;
+        margin-right: 0;
+    
+    }
+
+    p, h1 {
+        text-align: center;
+         flex-direction: column;
+        height: auto;
+        padding: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .caixas {
+        width: 25%;
+        flex-direction: column;
+    
+    }
+
+    #BottomBox { 
+        width: 375px;
+        height: 667px;
+    }
+
+}
